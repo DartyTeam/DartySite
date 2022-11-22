@@ -5,7 +5,7 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
     "appAssociation": "AUTO",
     "rewrites": [ { "source": "/download/**", "dynamicLinks": true } ]
   }
