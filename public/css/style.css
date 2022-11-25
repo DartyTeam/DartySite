@@ -3,7 +3,7 @@ html {
     background: url('../images/background-card.svg') no-repeat center center fixed;
     -webkit-background-size: cover;
     height: auto;
-    font-size: 18px;
+    font-size: 20px;
 
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     background: linear-gradient(-45deg, #DE4448, #DEDAC7, #2D6BB0, #DDE0E6, #A8D2D7);
