@@ -84,7 +84,9 @@ body {
     float: none;
     vertical-align: top;
 }
-
-.navbar .navbar-collapse {
-    text-align: center;
+footer{
+    font-size: x-small!important;
 }
+/*.navbar .navbar-collapse {*/
+/*    text-align: center;*/
+/*}*/
