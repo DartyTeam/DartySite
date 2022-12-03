@@ -1,3 +1,16 @@
+@font-face {
+    font-family:'SF Pro';
+    src: url('/fonts/SF Pro.eot');
+	src: url('/fonts/SF Pro.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/SF Pro.woff2') format('woff2'),
+		url('/fonts/SF Pro.woff') format('woff'),
+		url('/fonts/SF Pro.svg#SF Pro') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2044;
+}
+
 html {
     -webkit-background-size: cover;
     height: auto;
@@ -16,17 +29,20 @@ body {
     height: 100%;
     background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
     border-radius: 61px;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(1000px);
     text-align: center;
+    font-family: 'SF Pro', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .insets {
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 0rem;
 }
 
 @keyframes gradient {
@@ -45,6 +61,13 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
     color: white;
+    font-size: x-large;
+    font-weight: medium;
+}
+
+.navbar .navbar-nav {
+    float: none;
+    vertical-align: top;
 }
 
 .nav-appstore {
@@ -57,44 +80,48 @@ body {
 /*    width: 70%;*/
 /*}*/
 
-.trello-button {
-    height: 4%;
-    width: 4%;
+.swiper {
+    margin-left: 14rem;
+    margin-right: 14rem;
 }
-.nav-link.active{
+
+.nav-link.active {
     color: #325FA0!important;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
-.navbar-brand.active{
+
+.navbar-brand.active {
     color: #325FA0!important;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
 /*#navbarNav{*/
 /*    justify-content : end;*/
 /*}*/
-.navbar .navbar-nav {
-    float: none;
-    vertical-align: top;
-}
-header{
-    margin-bottom: 4rem;
-}
-section{
-    margin-bottom: 4rem;
-}
-footer{
-    font-size: x-small!important;
-}
-#iconTelegram{
-    font-size: x-small!important;
 
+
+header {
+    margin-bottom: 4rem;
 }
-#iconTelegramText{
+
+section {
+    margin-bottom: 4rem;
+}
+
+footer {
+    font-size: medium!important;
+}
+
+#iconTelegram {
+    font-size: x-small!important;
+}
+
+#iconTelegramText {
     color: #2CA4DC!important;
 }
-#iconYouTube{
+
+#iconYouTube {
     font-size: x-small!important;
 }
+
 figcaption {
     text-align: center; /* Выравниваем по центру */
 }
