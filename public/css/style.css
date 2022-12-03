@@ -11,6 +11,7 @@ html {
 	animation: gradient 30s ease infinite;
 }
 
+
 body {
     margin-top: 1rem;
     margin-left: 2rem;
@@ -60,10 +61,10 @@ body {
     margin-right: 0rem;
 }
 
-.humans-image {
-    height: 70%;
-    width: 70%;
-}
+/*.humans-image {*/
+/*    height: 70%;*/
+/*    width: 70%;*/
+/*}*/
 
 .trello-button {
     height: 4%;
@@ -84,8 +85,24 @@ body {
     float: none;
     vertical-align: top;
 }
+header{
+    margin-bottom: 4rem;
+}
+section{
+    margin-bottom: 4rem;
+}
 footer{
     font-size: x-small!important;
+}
+#iconTelegram{
+    font-size: x-small!important;
+
+}
+#iconYouTube{
+    font-size: x-small!important;
+}
+figcaption {
+    text-align: center; /* Выравниваем по центру */
 }
 /*.navbar .navbar-collapse {*/
 /*    text-align: center;*/
