@@ -98,12 +98,16 @@ footer{
     font-size: x-small!important;
 
 }
+#iconTelegramText{
+    color: #2CA4DC!important;
+}
 #iconYouTube{
     font-size: x-small!important;
 }
 figcaption {
     text-align: center; /* Выравниваем по центру */
 }
+
 /*.navbar .navbar-collapse {*/
 /*    text-align: center;*/
 /*}*/
