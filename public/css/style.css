@@ -64,7 +64,9 @@ body {
     font-size: x-large;
     font-weight: medium;
 }
-
+#navbarNav {
+justify-content: end;
+}
 .navbar .navbar-nav {
     float: none;
     vertical-align: top;
