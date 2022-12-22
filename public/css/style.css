@@ -21,9 +21,9 @@ html {
 }
 
 body {
-    margin-top: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 2rem;
     -webkit-background-size: cover;
     height: 100%;
@@ -77,11 +77,6 @@ justify-content: end;
     margin-right: 0rem;
 }
 
-/*.humans-image {*/
-/*    height: 70%;*/
-/*    width: 70%;*/
-/*}*/
-
 .swiper {
     margin-left: 14rem;
     margin-right: 14rem;
@@ -94,11 +89,6 @@ justify-content: end;
 .navbar-brand.active {
     color: #325FA0!important;
 }
-
-/*#navbarNav{*/
-/*    justify-content : end;*/
-/*}*/
-
 
 header {
     margin-bottom: 4rem;
@@ -128,6 +118,6 @@ figcaption {
     text-align: center; /* Выравниваем по центру */
 }
 
-/*.navbar .navbar-collapse {*/
-/*    text-align: center;*/
-/*}*/
+#icon{
+    justify-content: center;
+}
