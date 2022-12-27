@@ -15,9 +15,9 @@ html {
     -webkit-background-size: cover;
     height: auto;
     font-size: 20px;
-    background: linear-gradient(-45deg, #DE4448, #DEDAC7, #2D6BB0, #DDE0E6, #A8D2D7);
-	background-size: 400% 400%;
-	animation: gradient 30s ease infinite;
+    background: linear-gradient(45deg, #2D6BB0, #A8D2D7);
+	background-size: 200% 200%;
+	animation: gradient 15s infinite;
 }
 
 body {
@@ -28,6 +28,8 @@ body {
     -webkit-background-size: cover;
     height: 100%;
     background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 200%;
+    animation: gradient 9s infinite;
     border-radius: 61px;
     box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
     backdrop-filter: blur(14px);
@@ -46,15 +48,21 @@ body {
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: left top;
+    }
+    25% {
+        background-position: right top;
+    }
+    50% {
+        background-position: right bottom;
+    }
+    75% {
+        background-position: left bottom;
+    }
+    100% {
+        background-position: left top;
+    }
 }
 
 .navbar {
